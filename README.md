@@ -47,8 +47,6 @@ project-root/
 - Root entry for React App.
 - Wraps the entire app inside `BrowserRouter` for routing support.
 
-📸 Screenshot:
-![main.jsx](./screenshots/Vite + React - Brave 26-03-2025 09_41_15 PM.png)
 
 ---
 
