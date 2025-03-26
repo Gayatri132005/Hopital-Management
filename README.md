@@ -74,7 +74,7 @@ project-root/
 - Simple page components that return static content.
 - Serve as placeholder routes.
 
-Vite + React - Brave 26-03-2025 09_41_39 PM
+
 ---
 
 ### 🔹 `Layout.jsx`
