@@ -10,7 +10,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import { Context } from "../main";
 import { useNavigate } from "react-router-dom";
-
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 const Sidebar = () => {
   const [show, setShow] = useState(false);
 
@@ -18,7 +18,7 @@ const Sidebar = () => {
 
   const handleLogout = async () => {
     await axios
-      .get("http://localhost:4000/api/v1/user/admin/logout", {
+      .get(`${BACKEND_URL}/api/v1/user/admin/logout`, {
         withCredentials: true,
       })
       .then((res) => {

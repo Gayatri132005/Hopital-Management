@@ -4,6 +4,8 @@ import { toast } from "react-toastify";
 import { Context } from "../main";
 import axios from "axios";
 
+
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 const AddNewDoctor = () => {
   const { isAuthenticated, setIsAuthenticated } = useContext(Context);
 
@@ -58,7 +60,7 @@ const AddNewDoctor = () => {
       formData.append("doctorDepartment", doctorDepartment);
       formData.append("docAvatar", docAvatar);
       await axios
-        .post("http://localhost:4000/api/v1/user/doctor/addnew", formData, {
+        .post(`${BACKEND_URL}/api/v1/user/doctor/addnew`, formData, {
           withCredentials: true,
           headers: { "Content-Type": "multipart/form-data" },
         })

@@ -4,6 +4,9 @@ import { toast } from "react-toastify";
 import { Context } from "../main";
 import { Navigate } from "react-router-dom";
 
+
+
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 const Doctors = () => {
   const [doctors, setDoctors] = useState([]);
   const { isAuthenticated } = useContext(Context);
@@ -11,7 +14,7 @@ const Doctors = () => {
     const fetchDoctors = async () => {
       try {
         const { data } = await axios.get(
-          "http://localhost:4000/api/v1/user/doctors",
+        `${BACKEND_URL}/api/v1/user/doctors`,
           { withCredentials: true }
         );
         setDoctors(data.doctors);

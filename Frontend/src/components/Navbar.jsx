@@ -5,13 +5,16 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import { Context } from "../main";
 
+
+
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 const Navbar = () => {
   const [show, setShow] = useState(false);
   const { isAuthenticated, setIsAuthenticated } = useContext(Context);
 
   const handleLogout = async () => {
     await axios
-      .get("http://localhost:4000/api/v1/user/patient/logout", {
+      .get(`${BACKEND_URL}/api/v1/user/patient/logout`, {
         withCredentials: true,
       })
       .then((res) => {

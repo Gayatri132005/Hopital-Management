@@ -11,14 +11,14 @@ import Login from "./pages/Login";
 import Navbar from "./components/Navbar";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 const App = () => {
   const { isAuthenticated, setIsAuthenticated, setUser } = useContext(Context);
 
   useEffect(() => {
     const fetchUser = async () => {
       try {
-        const response = await axios.get("http://localhost:4000/api/v1/user/patient/me", { withCredentials: true });
+        const response = await axios.get(`${BACKEND_URL}/api/v1/user/patient/me`, { withCredentials: true });
         setIsAuthenticated(true);
         setUser(response.data.user);
       } catch (error) {

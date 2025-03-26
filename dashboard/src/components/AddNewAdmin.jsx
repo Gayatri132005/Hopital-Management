@@ -4,6 +4,9 @@ import { Navigate, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import axios from "axios";
 
+
+
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
 const AddNewAdmin = () => {
   const { isAuthenticated, setIsAuthenticated } = useContext(Context);
 
@@ -23,7 +26,7 @@ const AddNewAdmin = () => {
     try {
       await axios
         .post(
-          "http://localhost:4000/api/v1/user/admin/addnew",
+          `${BACKEND_URL}/api/v1/user/admin/addnew`,
           { firstName, lastName, email, phone, nic, dob, gender, password },
           {
             withCredentials: true,

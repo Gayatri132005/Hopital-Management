@@ -15,7 +15,10 @@ const Register = () => {
   const [dob, setDob] = useState("");
   const [gender, setGender] = useState("");
   const [password, setPassword] = useState("");
+  
 
+
+  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
   const navigateTo = useNavigate();
 
   const handleRegistration = async (e) => {
@@ -23,7 +26,7 @@ const Register = () => {
     try {
       await axios
         .post(
-          "http://localhost:4000/api/v1/user/patient/register",
+          `${BACKEND_URL}/api/v1/user/patient/register`,
           { firstName, lastName, email, phone, nic, dob, gender, password },
           {
             withCredentials: true,
