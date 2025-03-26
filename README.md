@@ -103,7 +103,7 @@ The dashboard module is typically used for admin/internal views with specific la
 - Example dashboard content with placeholder or card widgets.
 
 📸 Screenshot:
-![Dashboard Home](./screenshots/Vite + React - Brave 26-03-2025 09_48_48 PM.png)
+
 
 ---
 ![Vite + React - Brave 26-03-2025 09_48_29 PM](https://github.com/user-attachments/assets/5f9e6226-fbe3-4aed-a2ff-8b7ef50c5ff8)
@@ -117,7 +117,8 @@ The dashboard module is typically used for admin/internal views with specific la
 ![Vite + React - Brave 26-03-2025 09_48_57 PM](https://github.com/user-attachments/assets/aa70d8d6-8831-41f2-bf1f-6921806b32a4)
 
 ![Vite + React - Brave 26-03-2025 09_49_12 PM](https://github.com/user-attachments/assets/95d54460-3b8d-47db-8263-ea65a9353843)
-![Uploading Vite + React - Brave 26-03-2025 09_49_21 PM.png…]()
+![Vite + React - Brave 26-03-2025 11_01_20 PM](https://github.com/user-attachments/assets/2aff6add-af74-4041-9d04-7940cfae0f37)
+
 
 
 ---
