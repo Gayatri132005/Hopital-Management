@@ -117,8 +117,8 @@ The dashboard module is typically used for admin/internal views with specific la
 ![Vite + React - Brave 26-03-2025 09_48_57 PM](https://github.com/user-attachments/assets/aa70d8d6-8831-41f2-bf1f-6921806b32a4)
 
 ![Vite + React - Brave 26-03-2025 09_49_12 PM](https://github.com/user-attachments/assets/95d54460-3b8d-47db-8263-ea65a9353843)
-
 ![Uploading Vite + React - Brave 26-03-2025 09_49_21 PM.png…]()
+
 
 ---
 
