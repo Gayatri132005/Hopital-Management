@@ -56,8 +56,8 @@ project-root/
 - Central routing system using `react-router-dom`.
 - Routes include `/`, `/about`, and `/dashboard` (optional)
 
-📸 Screenshot:
-![App.jsx](./screenshots/Vite + React - Brave 26-03-2025 09_41_39 PM.png)
+![Vite + React - Brave 26-03-2025 09_41_15 PM](https://github.com/user-attachments/assets/f63f9e14-8aaa-42a0-99d3-8c757c7e84fa)
+
 
 ---
 
