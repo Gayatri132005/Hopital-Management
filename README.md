@@ -65,8 +65,8 @@ project-root/
 - Navigation bar component.
 - Contains links to Home, About, Dashboard.
 
-📸 Screenshot:
-![Navbar.jsx](./screenshots/Vite + React - Brave 26-03-2025 09_42_40 PM.png)
+
+![Vite + React - Brave 26-03-2025 09_42_40 PM](https://github.com/user-attachments/assets/b304a2a7-604f-45d3-ac2d-2250a82cbb1d)
 
 ---
 
@@ -74,17 +74,17 @@ project-root/
 - Simple page components that return static content.
 - Serve as placeholder routes.
 
-📸 Screenshot (About Page):
-![About.jsx](./screenshots/Vite + React - Brave 26-03-2025 09_44_59 PM.png)
-
+Vite + React - Brave 26-03-2025 09_41_39 PM
 ---
 
 ### 🔹 `Layout.jsx`
 - Shared wrapper layout for all routes.
 - Uses `<Outlet />` to dynamically render child pages.
 
-📸 Screenshot:
-![Layout.jsx](./screenshots/Vite + React - Brave 26-03-2025 09_45_33 PM.png)
+Login and registeration page 
+![Vite + React - Brave 26-03-2025 09_44_59 PM](https://github.com/user-attachments/assets/4bbba4b9-5315-4e42-baf3-f7955082a69e)
+
+![Vite + React - Brave 26-03-2025 09_45_33 PM](https://github.com/user-attachments/assets/7d93ea86-d3b7-43fc-8d91-12d0a9549152)
 
 ---
 
@@ -96,9 +96,6 @@ The dashboard module is typically used for admin/internal views with specific la
 - Handles sidebar + content area.
 - Displays different dashboard widgets or sections.
 
-📸 Screenshot:
-![DashboardLayout](./screenshots/Vite + React - Brave 26-03-2025 09_48_29 PM.png)
-
 ---
 
 ### 🔹 `DashboardHome.jsx`
@@ -109,16 +106,19 @@ The dashboard module is typically used for admin/internal views with specific la
 ![Dashboard Home](./screenshots/Vite + React - Brave 26-03-2025 09_48_48 PM.png)
 
 ---
+![Vite + React - Brave 26-03-2025 09_48_29 PM](https://github.com/user-attachments/assets/5f9e6226-fbe3-4aed-a2ff-8b7ef50c5ff8)
 
 ### 🔹 `Sidebar.jsx` / `NavbarDashboard.jsx`
 - Components that control navigation inside dashboard only.
 - Separate from main app Navbar.
 
-📸 Screenshot:
-![Sidebar](./screenshots/Vite + React - Brave 26-03-2025 09_48_57 PM.png)
+![Vite + React - Brave 26-03-2025 09_48_48 PM](https://github.com/user-attachments/assets/9a41fc0c-de2d-48ee-af81-8c62d1c8b906)
 
-📸 Screenshot:
-![Dashboard Navbar](./screenshots/Vite + React - Brave 26-03-2025 09_49_12 PM.png)
+![Vite + React - Brave 26-03-2025 09_48_57 PM](https://github.com/user-attachments/assets/aa70d8d6-8831-41f2-bf1f-6921806b32a4)
+
+![Vite + React - Brave 26-03-2025 09_49_12 PM](https://github.com/user-attachments/assets/95d54460-3b8d-47db-8263-ea65a9353843)
+
+![Vite + React - Brave 26-03-2025 09_49_12 PM](https://github.com/user-attachments/assets/cf0c7710-cc91-4cd4-af0f-1920f99b0c54)
 
 ---
 
