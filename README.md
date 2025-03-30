@@ -165,13 +165,6 @@ Visit: `http://localhost:5173`
 
 ---
 
-# 🛠 Future Improvements
-
-- Connect Backend API to Dashboard
-- Add Auth/Role based access
-- Dynamic Routing & Lazy Loading
-- Deploy on Vercel / Render
-
 
 
 
